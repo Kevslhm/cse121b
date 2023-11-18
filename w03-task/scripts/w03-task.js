@@ -82,7 +82,7 @@ function calculateSubtotal()
 
     if (checkbox.checked === true)
     {
-        let discount = userNumber * 0.15
+        let discount = userNumber * 0.15;
         let total = userNumber - discount;
         return document.getElementById('total').innerHTML = `$ ${total.toFixed(2)}`;
     }
