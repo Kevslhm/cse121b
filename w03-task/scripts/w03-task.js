@@ -17,7 +17,7 @@ function addNumbers()
     document.getElementById('sum').value = sum;
 }
 
-const buttonHtml = document.querySelector('#addNumbers')
+const buttonHtml = document.querySelector('#addNumbers');
 buttonHtml.addEventListener("click", addNumbers);
 
 /*function add (number1, number2)
